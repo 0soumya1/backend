@@ -13,6 +13,7 @@ app.get("/flowers", (req,resp)=>{
      resp.send(arr);
 })
 
+//for checking default server response after deployment
 app.get("/", (req, res) => {
     res.send("hello from backend");
   });
