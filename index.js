@@ -13,4 +13,8 @@ app.get("/flowers", (req,resp)=>{
      resp.send(arr);
 })
 
+app.get("/", (req, res) => {
+    res.send("hello from backend");
+  });
+
 app.listen(5000);
